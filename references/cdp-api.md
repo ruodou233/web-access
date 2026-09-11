@@ -3,7 +3,7 @@
 ## 基础信息
 
 - 地址：`http://localhost:3456`
-- 启动：`node ~/.claude/skills/web-access/scripts/cdp-proxy.mjs &`
+- 启动：`node "<skill-dir>/scripts/cdp-proxy.mjs" &`；`<skill-dir>` 按主 `SKILL.md` 定义为其所在目录的绝对路径。
 - 启动后持续运行，不建议主动停止（重启需 Chrome 重新授权）
 - 强制停止：`pkill -f cdp-proxy.mjs`
 
